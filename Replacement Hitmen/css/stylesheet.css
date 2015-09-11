@@ -1,0 +1,406 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+body{
+	margin: 0px auto !important;
+	text-align: center !important;
+	background: #E0E0E0 !important;
+	/*width: 1150px !important;*/
+	line-height: 10px !important;
+}
+#main_wrapper{
+	text-align: center;
+	font-family: /*Courier !important;*/ 'Marvel', sans-serif;
+	width: 95%;
+	margin: 0px auto;
+}
+.spacer{
+	clear: both;
+}
+header{
+	/* position: fixed; */
+	z-index: 100;
+	background-color: #E0E0E0;
+	width: 100%;
+}
+header img{
+	width: 284px;
+	float: left;
+}
+header nav{
+	position: relative;
+	bottom: 10px;
+	float: right;
+	font-family: 'Marvel', sans-serif;
+	margin-top: 55px;
+	text-align: right;
+	font-size: large;
+}
+header nav a{
+	text-decoration: none;
+	color: black;
+	transition: all 2s;
+	-webkit-transition: all 2s;
+	-moz-transition: all 2s;
+}
+header nav a:hover{
+	color: black;
+	font-weight: bolder;
+	border-bottom: 2px solid black;
+}
+header nav ul{
+	margin: 0px;
+}
+header nav ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 20px;
+	
+}
+header nav ul li:last-child{
+    margin-right: 0px;
+}
+
+section .container{
+   width: 100%;
+   padding: 0px;
+	
+}
+section #myCarousel{ 
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    margin:0px auto;
+   
+}
+.fa-2x {
+  font-size: 2em;
+  position: absolute !important;
+  top: 50%;
+}
+#members{
+	width: 60%;
+	float: left;
+	
+}
+#members h1, #single h1, #projects h1 {
+	color: white;
+	background: black;
+    padding: 10px;
+    -webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    font-weight: bold;
+    
+	font-size: 24px;
+}
+aside{
+	display: inline-block;
+}
+#single{
+	width: 35%;
+	float: right;
+}
+#single iframe{
+	-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+}
+.member_id div {
+	display:inline-block;
+	padding: 5px;
+	margin: 0px auto;
+	width: 90%;
+	background: black;
+	color: black;
+	font-weight: bold;
+	height: 225px;
+	-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    opacity: .85;
+}
+
+div.m_illshawn{
+	background-image: url('../images/illshawn.png');
+	max-width: 105px;
+	transition: background-image 1s;
+	-webkit-transition: background-image 1s;
+	-moz-transition: background-image 1s;
+}
+div.m_pattawon{
+	background-image: url('../images/pattawon.png');
+	max-width: 105px;
+	transition: background-image 1s;
+	-webkit-transition: background-image 1s;
+	-moz-transition: background-image 1s;
+	
+}
+div.m_presto{
+	background-image: url('../images/presto.png');
+	max-width: 105px;
+	transition: background-image 1s;
+	-webkit-transition: background-image 1s;
+	-moz-transition: background-image 1s;
+	
+}
+div.m_enigma{
+	background-image: url('../images/enigma.png');
+	max-width: 105px;
+	transition: background-image 1s;
+	-webkit-transition: background-image 1s;
+	-moz-transition: background-image 1s;
+	
+}
+div.m_powerz{
+	background-image: url('../images/powerz.png');
+	max-width: 105px;
+	transition: background-image 1s;
+	-webkit-transition: background-image 1s;
+	-moz-transition: background-image 1s;
+	
+}
+div.m_speakeazy{
+	background-image: url('../images/speakeazy.png');
+	max-width: 105px;
+	transition: background-image 1s;
+	-webkit-transition: background-image 1s;
+	-moz-transition: background-image 1s;
+}
+div.m_pattawon:hover{
+	background-image: url('../images/pattawon_hover.png');
+	opacity: 1;
+	}
+div.m_illshawn:hover{
+	background-image: url('../images/illshawn_hover.png');
+	opacity: 1;
+	}
+div.m_presto:hover{
+	background-image: url('../images/presto_hover.png');
+	opacity: 1;
+	}
+div.m_enigma:hover{
+	background-image: url('../images/enigma_hover.png');
+	opacity: 1;
+	}
+div.m_powerz:hover{
+	background-image: url('../images/powerz_hover.png');
+	opacity: 1;
+	}
+div.m_speakeazy:hover{
+	background-image: url('../images/speakeazy_hover.png');
+	opacity: 1;
+	}
+	
+#projects{
+	width: 100%;
+	text-align:center;
+	clear: both;
+}
+#projects div img{
+	display:inline-block;
+	float: left;
+	-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    text-align: center;
+    width: 75%;
+    min-width: 25%;
+    transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+}
+#projects div img:hover{
+	opacity: .75;
+    
+}
+.memberTable{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	padding: 5px;
+	margin: 0px auto;
+}
+.projectTable{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	padding: 5px;
+	margin: 0px 4%;
+}
+.memberTable td{
+	text-align: center !important;
+	padding: 5px;
+}
+.projectTable td{
+	width: 32%;;
+}
+#events h1 {
+	color: white;
+	background: black;
+    padding: 10px;
+    -webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    font-weight: bold;
+	font-size: 24px;
+	margin-top: 25px;
+}
+#calendar{
+	-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5) !important;
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5) !important;
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5) !important;
+}
+.view-container-border {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.view-cap, .view-container-border {
+    background-color: rgb(255, 255, 255) !important;
+}
+#memberProfile{
+	margin-top: 20px;
+	width: 95%;
+}
+#memberImage{
+	float: left;
+	width: 34%;
+}
+#memberImage img{
+	-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+}
+#memberBio{
+	float: right;
+	width: 66%;
+}
+#memberBio h1{
+	margin-top: 0px;
+	color: white;
+	background: black;
+    padding: 10px;
+    -webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    font-weight: bold;
+	font-size: 24px;
+}
+#memberBio ul{
+	padding-left: 0px;
+}
+#memberBio ul li {
+	list-style: none;
+	
+}
+.memberText{
+	background-color: rgba(60, 59, 59, 0.83);
+	color: white;
+	padding: 25px;
+	font-size: 20px;
+	line-height: normal;
+	text-align: justify;
+	-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+}
+.memberText  h3{
+	color: white;
+	font-weight: bolder;
+}
+#memberNav{
+	font-size: 30px;
+	margin: 0px;
+}
+#memberNav ul li{
+	float: left;
+	list-style: none;
+	margin-right: 65px;
+}
+#memberNav ul li:last-child{
+	margin-right: 0px;
+}
+#memberNav ul li a{
+	color: black;
+	text-decoration: none !important;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+}
+#memberNav ul li a:hover{
+	
+	border-bottom: 2px solid black;
+}
+footer {
+	height: 105px;
+	clear: both;
+	color: white;
+	background: black;
+	text-align: center;
+    padding: 10px;
+    -webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+}
+footer #socialMedia table{
+	width: 15%;
+	margin: auto;
+	text-align: center;
+}
+footer #socialMedia table th{
+	text-align: center;
+}
+footer #socialMedia table td{
+	width: 20%;
+}
+footer #socialMedia img{
+	position: relative;
+	top: 10px;
+	width: 80%;
+}
+footer #socialMedia li {
+	list-style: none;
+	float: left;
+	
+}
+footer #footerLinks{
+	
+}
+#footerLinks a{
+	text-decoration: none !important;
+	transition: color 1s;
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+
+}
+#footerLinks a:hover{
+	color: gray ;
+
+}
+#footerLinks ul li{
+	list-style: none !important;
+	text-decoration: none !important;
+	color: white !important;
+	float: left !important;
+	text-align: center;
+	padding: 5px;
+	margin: 0px auto !important;
+}
+footer #footerLinks table{
+	width: 40%;
+	margin: 0px auto;
+}
+footer #footerLinks table td{
+	width: 20%;
+	border-right: 1px solid white;
+}
+#signature {
+	padding: 10px;
+	background-color: rgb(60, 59, 59);
+	color: white;
+	font-size: 8pt;
+	-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    -moz-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+    box-shadow: 0px 2px 7px rgba(0,0,0,.5);
+	border-top: 1px solid white;
+}

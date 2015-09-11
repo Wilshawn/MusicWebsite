@@ -1,0 +1,59 @@
+	html{
+		-webkit-text-size-adjust: none;
+	}
+	header{
+		text-align: center;
+	}
+	header img{
+		float: none;
+		width: 60%;
+		
+	}
+	header nav{
+		float: none;
+		text-align: center;
+		margin-top: 25px;
+	
+		line-height: normal;
+}
+	header nav ul{
+		padding: 0px !important;
+	}
+	#members{
+		display: block; 
+		width: 100%;
+	}
+	#single{
+		display: block;
+		width: 100%;
+	}
+	section .container{
+		display: none;
+	}
+	img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+	}
+	.video embed,
+	.video object,
+	.video iframe {
+	width: 100%;
+	height: auto;
+	}
+	#navigation a{
+		font-size: 90%;
+	
+		line-height: normal;
+}
+	footer #socialMedia table{
+		width: 30%;
+	}
+	footer #socialMedia table img{
+		width: 100%;
+	}	
+	footer #footerLinks table{
+		width: 100%;
+		margin: 0px auto;
+	
+	}
